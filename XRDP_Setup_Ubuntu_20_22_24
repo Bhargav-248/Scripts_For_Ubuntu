@@ -1,2 +1,10 @@
 #Update Your System 
 sudo apt update && sudo apt upgrade -y
+
+#Install XRDP
+sudo apt install xrdp -y
+
+#Start and Enable XRDP Service
+sudo systemctl enable xrdp
+sudo systemctl start xrdp
+
